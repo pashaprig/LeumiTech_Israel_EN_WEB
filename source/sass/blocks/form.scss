@@ -1,0 +1,11 @@
+.form {
+  box-sizing: border-box;
+  width: 427px;
+  padding: 40px 50px;
+  background: $main-color;
+
+  @media (max-width: $tablet-width) {
+    margin-left: -30px;
+    width: calc(100% + 60px);
+  }
+}

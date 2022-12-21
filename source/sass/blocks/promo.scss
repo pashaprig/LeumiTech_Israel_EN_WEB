@@ -1,0 +1,68 @@
+.promo {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 813px;
+  padding: 60px 60px 0 60px;
+  background: no-repeat 100% -106px $grey2 url(../img/promo-bcg.jpg);
+
+  @media (max-width: $tablet-width) {
+    padding: 40px 30px 0 30px;
+    height: unset;
+  }
+}
+
+.promo__header {
+  display: block;
+  margin-bottom: 20px;
+  padding: 0 100px;
+  color: $main-color;
+  text-align: center;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 58px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0;
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+
+.promo__10000 {
+  vertical-align: middle;
+  @media (max-width: $tablet-width) {
+    width: 91px;
+    height: 30px;
+  }
+}
+
+.promo__about {
+  box-sizing: border-box;
+  max-width: 890px;
+  margin-bottom: 60px;
+  padding: 20px;
+  color: $basic-white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  background: $bcg-promo;
+
+  @media (max-width: $tablet-width) {
+    font-size: 17px;
+  }
+}
+
+.promo__wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+  }
+}
