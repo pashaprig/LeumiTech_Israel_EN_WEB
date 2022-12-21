@@ -1,11 +1,13 @@
 .page-header {
+  box-sizing: border-box;
   display: flex;
-  background-color: lightblue;
+  padding: 0px 375px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 106px;
 
-  @media (min-width: $tablet-width) {
+  @media (max-width: $tablet-width) {
+    min-height: 76px;
+    padding: 0px 32px;
   }
-}
-
-.daily-pay__icon {
-  fill: white;
 }

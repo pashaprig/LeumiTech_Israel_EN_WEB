@@ -1,0 +1,24 @@
+.sign-up {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  background: $main-color;
+  border-radius: 3px;
+}
+
+.sign-up__icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  background: $basic-white;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.sign-up__text {
+  padding: 0 12px;
+  color: $basic-white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+}
