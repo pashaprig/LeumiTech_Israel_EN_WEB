@@ -1,11 +1,90 @@
 .form {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   width: 427px;
-  padding: 40px 50px;
+  padding: 40px;
+  color: $basic-white;
   background: $main-color;
 
   @media (max-width: $tablet-width) {
+    padding: 40px 32px;
     margin-left: -30px;
     width: calc(100% + 60px);
   }
+}
+
+.form__heading {
+  margin-bottom: 29px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+
+  @media (max-width: $tablet-width) {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+.form__inpur-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  input {
+    width: 45%;
+  }
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+
+    input {
+      width: 100%;
+    }
+  }
+
+}
+
+input:not([type="checkbox"]) {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 16px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 18px;
+  background: $bcg-input;
+  border-radius: 3px;
+  border: none;
+
+  @media (max-width: $tablet-width) {
+    padding: 13px 15px;
+    font-size: 15px;
+  }
+}
+
+.form__check-label {
+  display: flex;
+  align-items: baseline;
+  column-gap: 9px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form__btn {
+  height: 56px;
+  margin-bottom: 20px;
+  background: $blue;
+
+  @media (max-width: $tablet-width) {
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding: 15px 24px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.form__about {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 18px;
 }

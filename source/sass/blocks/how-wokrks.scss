@@ -1,0 +1,88 @@
+.how-wokrks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $grey1 no-repeat url(../img/how-wokrks-bcg.jpg);
+  background-size: cover;
+
+  @media (max-width: $tablet-width) {
+    padding: 70px 30px;
+    background: $grey1  no-repeat url(../img/how-wokrks-bcg-mob.jpg);
+    background-size: cover;
+  }
+}
+
+.how-wokrks__contetn-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 200px 0;
+  padding: 90px 40px;
+  background: $basic-white;
+}
+
+.how-wokrks__heading {
+  margin-bottom: 60px;
+  color: $text-black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 48px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 50px;
+    font-size: 34px;
+    line-height: 38px;
+  }
+}
+
+.how-wokrks__list {
+  display: flex;
+  gap: 30px;
+  max-width: 1170px;
+  margin-bottom: 60px;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+
+.how-wokrks__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-wokrks__number {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.how-wokrks__title {
+  margin-left: 20px;
+  max-width: 210px;
+  color: $main-color;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 38px;
+
+  @media (max-width: $tablet-width) {
+    max-width: 160px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+.how-wokrks__about {
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.how-wokrks__btn {
+  box-sizing: border-box;
+  align-self: center;
+  min-width: 256px;
+  background: $main-color;
+}

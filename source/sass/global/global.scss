@@ -31,24 +31,15 @@ a {
 .btn {
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-width: 260px;
-  margin-bottom: 25px;
-  padding: 14px 28px;
-  font-family: "Montserrat", "Arial", sans-serif;
+  justify-content: space-between;
+  padding: 17px 24px;
+  font-family: "'Roboto'", "Arial", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 21px;
   color: $basic-white;
-  text-transform: uppercase;
-  background-color: $gold;
-  border: 1px solid $gold;
-  border-radius: 4px;
-
-  &:hover {
-    color: $gold;
-    background-color: transparent;
-  }
+  background-color: none;
+  border: none;
 }
 
 .mobile-only {
