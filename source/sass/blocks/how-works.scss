@@ -10,14 +10,14 @@
     background: $main-color;
     padding: 0;
 
-    .how-works__contetn-wrapper {
+    .how-works__content-wrapper {
       background: transparent;
       color: $basic-white;
     }
   }
 
   @media (max-width: $tablet-width) {
-    padding: 200px 30px;
+    padding: 200px 0;
     background: $grey1 no-repeat url(../img/how-works-bcg-mob.jpg);
     background-size: cover;
 
@@ -25,21 +25,31 @@
       background: $main-color;
       padding: 0 30px;
 
-      .how-works__contetn-wrapper {
+      &.how-works__content-wrapper {
         background: transparent;
         color: $basic-white;
+      }
+
+
+      @media (max-width: $tablet-width) {
+        padding: 0;
       }
     }
   }
 }
 
-.how-works__contetn-wrapper {
+.how-works__content-wrapper {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100%;
   padding: 90px 40px;
   background: $basic-white;
+
+  @media (max-width: $tablet-width) {
+  padding: 70px 30px;
+  }
 }
 
 .how-works__heading {
