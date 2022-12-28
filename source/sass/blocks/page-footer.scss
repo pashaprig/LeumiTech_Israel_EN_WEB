@@ -61,7 +61,7 @@
   }
 }
 
-.page-footer__lincs {
+.page-footer__links {
   margin-left: auto;
 
   @media (max-width: $tablet-width) {
@@ -71,9 +71,14 @@
   }
 }
 
-.page-footer__linc {
+.page-footer__link {
   color: $footer-color;
   text-decoration: underline;
+
+  &--active {
+    text-decoration: none;
+    color: $grey1;
+  }
 
   &:first-of-type {
     margin-right: 20px;

@@ -62,8 +62,6 @@ input:not([type="checkbox"]) {
 }
 
 .form__check-label {
-  display: flex;
-  align-items: baseline;
   column-gap: 9px;
   font-size: 14px;
   line-height: 20px;
@@ -87,4 +85,9 @@ input:not([type="checkbox"]) {
   margin-top: 12px;
   font-size: 14px;
   line-height: 18px;
+}
+
+.form__link {
+  color: $footer-color;
+  text-decoration: underline;
 }
