@@ -30,6 +30,14 @@ ul {
 
 a {
   text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .btn {
@@ -44,6 +52,15 @@ a {
   color: $basic-white;
   background-color: none;
   border: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .mobile-only {
